@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Default suite">
+<listeners>
+<listener class-name="maventestng.ExtentReportsEx1"></listener>
+</listeners>
+  <test name="Default test">
+    <classes>
+      <class name="maventestng.TestngClass"/>
+    </classes>
+  </test> 
+</suite> 
